@@ -3,8 +3,8 @@ This is the Drixit Challenge Solution. It consists of a front-end React Applicat
 Structure:
     
     /client: Contains the React Client Application. The app uses React-Router for the routing between the different pages.
-        /login-component: Contains the React component for the login page.
-        /user-info-component: Contains the React component for the user information page.
+        /src/login-component: Contains the React component for the login page.
+        /src/user-info-component: Contains the React component for the user information page.
     /server: Contains the NodeJS Application. The library ExpressJS was used to create the API for the client.
         /routes: Contains the different API routes.
         /controllers: Contains the application controllers which will process the request and send the appropriate response.
